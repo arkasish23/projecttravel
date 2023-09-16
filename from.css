@@ -1,0 +1,38 @@
+
+
+/* .password-container {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Style the password input field */
+  input[type="password"] {
+    padding-right: 0px; /* Add padding to accommodate the eye button */
+  }
+  
+  /* Style the password toggle button */
+  #passwordToggle {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+  }
+  
+  /* Style the eye icon */
+  #passwordToggle i {
+    font-size: 6px;
+  }
+  
+  /* Change the eye icon when password is visible */
+  #passwordInput[type="password"]:not(.show-password) + #passwordToggle i::before {
+    content: "\f070"; /* Font Awesome icon for open eye */
+  }
+  
+  #passwordInput.show-password + #passwordToggle i::before {
+    content: "\f06e"; /* Font Awesome icon for closed eye */
+  }
+  

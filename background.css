@@ -1,0 +1,13 @@
+/* body {
+    background-image: url('Mount_Everest_as_seen_from_Drukair2_PLW_edit_Cropped.jpg'); 
+    background-repeat:no-repeat;
+    background-size:cover ;
+} */
+body {
+    background-image: url('switzerland-3840x2160-5k-4k-wallpaper-8k-mountains-sky-house-5301.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px); /* Adjust the blur intensity */
+  }
+  

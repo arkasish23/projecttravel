@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+input[type="submit"] {
+    background-color: #0a460c;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Apply some additional styles to improve the visual experience */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 5px #2196F3;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+/* Optional: Format the radio buttons and checkboxes better */
+label input[type="radio"],
+label input[type="checkbox"] {
+    margin-right: 5px;
+}
+/* Example: Apply a blur effect to the background of a div */
+div {
+    background-image: url('Sunrise-on-the-Matterhorn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px); /* Adjust the blur intensity */
+  }
+  
